@@ -3,9 +3,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-
 # Define a function 'app()' which accepts 'car_df' as an input.
-
 def app(car_df):
   st.header('Visualise Data')
   st.set_option('deprecation.showPyplotGlobalUse', False)
